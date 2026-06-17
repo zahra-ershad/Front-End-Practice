@@ -40,12 +40,12 @@ html{
     background-color: white;
     box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.1);
 }
-.container-1 .row .col:hover{
+.container-1 .row .col:hover ,.container-2 .row .col:hover{
     transform: scale(1.01);
     transition-duration: 0.5s;
 }
 
-.container-1 .row .col img{
+.container-1 .row .col img , .container-2 .row .col img{
     width: 100%;
     padding: .2rem;
     border-radius: 1rem;
@@ -62,7 +62,31 @@ html{
     
 }
 
-.container-1 .row .col .caption p{
+.container-1 .row .col .caption p , .container-2 .row .col .caption p{
     font-size: .72rem;
     padding-left: 5px;
+}
+
+.container-2{
+    padding:1rem;
+    display: flex;
+}
+
+.container-2 .row{ 
+    display: flex;
+    justify-content: flex-start; 
+    overflow-x: auto;
+    gap:.7rem;
+
+
+}
+
+.container-2 .row .col{
+    min-width: 20rem;
+    max-width: 21rem;
+    height: 24rem;
+    padding: 5px;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.1);
 }
