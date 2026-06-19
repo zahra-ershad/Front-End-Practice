@@ -29,6 +29,7 @@ html{
     font-weight: 400;
     color: #023603;
     font-size: 1.6rem;
+    outline: none;
     
 }
 .img-box{
@@ -147,15 +148,16 @@ html{
     }
     .text-box-3{
         margin-top: 2.5rem;
-        grid-column: 4/12;
+        grid-column: 2/9;
         grid-row: 6/7;
     }
+    
 }
 
 @media (max-width: 777px) and (min-width: 0px) {
     .main {
         padding-bottom: 1rem;;
-        height: 120vh;
+        height: 140vh;
     }
 
     .navbar{
@@ -163,7 +165,7 @@ html{
         grid-row: 1/2;
     }
     .img-box{
-        grid-row: 2/7;
+        grid-row: 2/6;
         grid-column:4/9;
     }
     .img-box img{
@@ -171,35 +173,51 @@ html{
     }
 
     .text-box-2{
-        grid-row: 7/8;
+        grid-row: 5/7;
         grid-column:4/7;
     }
 
     .text-box-3{
         padding-left: 1.5rem;
         margin-top: 3rem;
-        grid-row: 7/8;
+        grid-row: 5/7;
         grid-column:4/13;
     }
 
     .text-box-1 {
-        grid-row: 8/9;
+        grid-row:6/8;
         grid-column:1/13;
     }
     .text-box-1 .description{
         padding: 1rem;
     }
 }
+
+
+
+
 @media (max-width: 500px) {
+    .img-box{
+        grid-row: 2/6;
+        grid-column:4/9;
+    }
+    .text-box-1{
+        margin-top: 2rem;
+        grid-row: 6/8;
+        grid-column:1/13;
+    }
+    .text-box-1 .auther{
+        padding-top: 2rem;
+    }
     .text-box-2{
-        grid-row: 7/8;
+        grid-row: 5/6;
         grid-column:4/7;
     }
 
     .text-box-3{
         padding-left: 1.5rem;
         margin-top: 3rem;
-        grid-row: 7/8;
+        grid-row: 5/6;
         grid-column:1/13;
     }
 
