@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+    
 html{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #E7E1B1;
 }
 
@@ -24,7 +26,7 @@ html{
 
 .navbar a{
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 400;
     color: #0D530E;
     font-size: 1.6rem;
     
@@ -56,4 +58,26 @@ html{
 .text-box-3{
     grid-row: 7/8;
     grid-column:4/9;
+}
+
+.auther{
+    color: #306D29;
+    border-bottom: 2px solid #0D530E;
+}
+
+.description{
+    font-family:none;
+    display:flex;
+    color:#073b08;
+    margin-top: -20px !important;
+    padding-right: 2rem;
+}
+
+.description .Big-letter{
+    font-size: 4rem;
+}
+
+.description p{
+    margin-top: 3.01rem;
+    font-size: 1.2rem;
 }
