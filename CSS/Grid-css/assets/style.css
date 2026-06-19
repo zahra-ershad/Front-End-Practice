@@ -98,3 +98,32 @@ html{
     font-size: 1.7rem;
     padding-top: 1.2rem;
 }
+
+@media (max-width: 1200px) and (min-width: 777px) {
+    .main {
+        padding-bottom: 1rem;;
+    }
+
+    .navbar{
+        grid-column:1/13;
+        grid-row: 1/2;
+    }
+    .img-box{
+        grid-row: 2/6;
+        grid-column:1/7;
+    }
+
+    .text-box-1{
+        grid-column:8/13;
+        grid-row:4/6;
+        font-size: 1rem;
+    }
+
+    .text-box-1 .description .Big-letter{
+        font-size: 2.5rem;
+        margin-top: 1rem;
+    }
+    .text-box-1 .description p{
+        font-size: 1.12rem;
+    }
+}
