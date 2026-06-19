@@ -1,5 +1,5 @@
 html{
-    font-family: 'Poppins', sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #E7E1B1;
 }
 
@@ -13,10 +13,19 @@ html{
 }
 
 .navbar{
+   padding-top:2rem;
    grid-row: 1/3;
-   grid-column:7/11;
+   grid-column:6/10;
+   display:grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
 }
-
+.navbar a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0D530E;
+    
+}
 .img-box{
     grid-row: 1/8;
     grid-column:1/4;
