@@ -101,7 +101,20 @@ html{
 
 
 
+@media (min-width: 1200px) {
 
+    .text-box-2{
+        grid-row: 5/7;
+        grid-column:2/6;
+        font-size: 3.5rem;
+    }
+    .text-box-3{
+        margin-top: 3.5rem;
+        grid-row: 5/8;
+        grid-column:2/8;
+        font-size: 3.5rem;
+    }
+}
 
 
 
