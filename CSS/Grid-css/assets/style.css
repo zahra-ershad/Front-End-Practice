@@ -14,21 +14,33 @@ html{
 
 .navbar{
    padding-top:2rem;
-   grid-row: 1/3;
+   grid-row: 1/7;
    grid-column:6/10;
    display:grid;
    grid-template-columns: repeat(3, 1fr);
    gap: 10px;
+   justify-items: center;
 }
+
 .navbar a{
     text-decoration: none;
     font-weight: bold;
     color: #0D530E;
+    font-size: 1.6rem;
     
 }
 .img-box{
     grid-row: 1/8;
-    grid-column:1/4;
+    grid-column:1/5;
+    width: 27rem;
+}
+
+.img-box img{
+    margin: 3rem;
+    width: 100%;
+    object-fit: cover;
+    min-height: 33rem;
+    max-height: 35rem;
 }
 
 .text-box-1{
