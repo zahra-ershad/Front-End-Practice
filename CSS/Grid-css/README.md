@@ -1,7 +1,8 @@
 # Grid Landing Page 🍏🚀
 A Concise and useful Project based on Grid
 
-<img style="min-width:320px; width:100%;object-fit:cover;margin:auto;" src="https://github.com/user-attachments/assets/97484037-6727-4549-aef6-98307e94ef0d" />
+<img  style="min-width:320px; width:100%;object-fit:cover;margin:auto;" src="https://github.com/user-attachments/assets/cc4b3360-54f8-4be4-92c0-bf0e4dd1a0fc" />
+
 
 
 ## Description
