@@ -1,23 +1,18 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    width: 100%;
+html{
     font-size: 100%;
-    max-height:100vh
+    height: 100%;
+    overflow-y: hidden;
 }
 
 .main {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    background: url(./assets/img/bg.jpg) no-repeat center / cover;
+    max-height: 100%;
     padding: 1rem;
-    background: url(./img/bg.jpg) no-repeat center / cover;
-
+    position: relative;
 }
+
 
 /* .main::after{
     content:"";
@@ -30,6 +25,7 @@ html, body {
 
 } */
 
+
 .img-box{
     width: 250px;
     height: 250px;
@@ -41,4 +37,10 @@ html, body {
     height: 100%;
     object-fit: cover;
 
+}
+
+.sun{
+    position: absolute;
+    top:50%;
+    left:50%
 }
