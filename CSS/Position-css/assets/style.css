@@ -63,8 +63,8 @@ html{
     width:2rem;
     height:2rem;
     border-radius:50%;
-    top:-1rem;
-    left:50%;
+    top:15rem;
+    left:45%;
 
 
 }
@@ -87,8 +87,8 @@ html{
     width:3rem;
     height:3rem;
     border-radius:50%;
-    top:15rem;
-    left:50%;
+    top:-1.5rem;
+    left:45%;
 }
 
 .venus-circuit .planet-div img{
@@ -108,8 +108,8 @@ html{
     width:2.4rem;
     height:2rem;
     border-radius: 50%;
-    top:-1.2rem;
-    left:30%;
+    top:20.5rem;
+    left:44%;
 }
 
 .mars-circuit{
@@ -122,8 +122,8 @@ html{
     width:3rem;
     height:3rem;
     border-radius: 50%;
-    top:-1.5rem;
-    left:50%;
+    top:25rem;
+    left:43%;
 }
 
 .mars-circuit .planet-div img{
@@ -141,8 +141,8 @@ html{
     width:4rem;
     height:4rem;
     border-radius:50%;
-    top:22.5rem;
-    left: 50%;
+    top:-2rem;
+    left: 45%;
 }
 
 .saturn-circuit{
@@ -155,8 +155,8 @@ html{
     width:5rem;
     height:5rem;
     border-radius: 50%;
-    top:-1.2rem;
-    left:50%;
+    top:30rem;
+    left:40%;
 }
 
 .uranus-circuit{
@@ -166,11 +166,11 @@ html{
 
 .uranus-circuit .planet-div{
     position: absolute;
-    width:3rem;
-    height:3rem;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 50%;
-    top:29.2rem;
-    left:50%;
+    top: -.65rem;
+    left: 50%;
 }
 
 .neptune-circuit{
@@ -186,6 +186,9 @@ html{
     top:-1.5rem;
     left:50%;
 }
+
+
+
 
 @media (max-width: 750px) {
     html {
