@@ -1,0 +1,197 @@
+html{
+    font-size:100%;
+    width: 100vw;
+    height:100vh;
+    overflow-y:hidden;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url(./img/bg.jpg) no-repeat center/cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, transparent 60%, rgba(0,0,0,0.5));
+    content: '';
+    
+}
+
+.planet{
+    position : absolute;
+    border: 1.5px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.02), inset 0 0 20px rgba(253, 248, 248, 0.155);
+    border-radius:50%;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+.sun{
+    border: 2px solid white;
+    border-radius:50%;
+    width:11rem;
+    height:11rem;
+}
+
+
+
+
+.sun .planet-div{
+    width:100%;
+    height:100%;
+    background: url(./img/sun.png) no-repeat center/cover;
+    border-radius:50%;
+    border: 1.5px solid #f46a00;
+}
+
+.mercury-circuit{
+    width:17rem;
+    height:16rem;
+}
+
+.mercury-circuit .planet-div{
+    position: absolute;
+    width:2rem;
+    height:2rem;
+    border-radius:50%;
+    top:15rem;
+    left:45%;
+
+
+}
+
+.mercury-circuit .planet-div img{
+    position: absolute;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+
+}
+
+
+.venus-circuit{
+    width:19rem;
+    height:19rem;
+}
+.venus-circuit .planet-div{
+    position: absolute;
+    width:3rem;
+    height:3rem;
+    border-radius:50%;
+    top:-1.5rem;
+    left:45%;
+}
+
+.venus-circuit .planet-div img{
+    position: absolute;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.earth-circuit{
+    width:20rem;
+    height:20rem;
+}
+
+.earth-circuit .planet-div{
+    position: absolute;
+    width:2.4rem;
+    height:2rem;
+    border-radius: 50%;
+    top:20.5rem;
+    left:44%;
+}
+
+.mars-circuit{
+    width:24rem;
+    height:24rem;
+}
+
+.mars-circuit .planet-div{
+    position:absolute;
+    width:3rem;
+    height:3rem;
+    border-radius: 50%;
+    top:25rem;
+    left:43%;
+}
+
+.mars-circuit .planet-div img{
+    width: 100%;
+    height:100%;
+}
+
+.jupiter-circuit{
+    width:25rem;
+    height:25rem;
+}
+
+.jupiter-circuit .planet-div{
+    position: absolute;
+    width:4rem;
+    height:4rem;
+    border-radius:50%;
+    top:-2rem;
+    left: 45%;
+}
+
+.saturn-circuit{
+    width:28rem;
+    height:28rem;
+}
+
+.saturn-circuit .planet-div{
+    position: absolute;
+    width:5rem;
+    height:5rem;
+    border-radius: 50%;
+    top:30rem;
+    left:40%;
+}
+
+.uranus-circuit{
+    width:31rem;
+    height:31rem;
+}
+
+.uranus-circuit .planet-div{
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    top: -.65rem;
+    left: 50%;
+}
+
+.neptune-circuit{
+    width:34rem;
+    height:34rem;
+}
+
+.neptune-circuit .planet-div{
+    position: absolute;
+    width:3rem;
+    height:3rem;
+    border-radius: 50%;
+    top:-1.5rem;
+    left:50%;
+}
+
+
+
+
+@media (max-width: 750px) {
+    html {
+        font-size: 50%;  /* یا 50% */
+    }
+}
