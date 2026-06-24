@@ -14,7 +14,7 @@ A compact project with a focus on **Animation-Transform** (pure css) 🚀.
 ## Description
 
 this compact project is developed from
-<a href="https://github.com/zahra-ershad/Front-End-Practice/edit/feature/css/CSS/Position-css" >
+<a href="https://github.com/zahra-ershad/Front-End-Practice/blob/feature/css/CSS/Position-css" >
 **solar system by position css**
 </a>
 ,added animation and flow to make it more perfessional and reviw the topics of Animation & Transform in css.
