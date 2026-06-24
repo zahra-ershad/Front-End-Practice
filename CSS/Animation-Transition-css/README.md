@@ -27,4 +27,5 @@ this compact project is developed from
 
 
 <br>
--If you found it usefull , don't forget the Star ⭐.
+
+-If you found it usefull , don't forget the **Star**   ⭐.
