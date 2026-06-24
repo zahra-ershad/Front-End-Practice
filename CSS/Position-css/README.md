@@ -1,7 +1,12 @@
 # Solar System with Pure CSS Position 🪐🌌
 
 
+<br>
 
+  <img style="width: 100%;height: 100%;max-height: 450px;object-fit: cover;margin: auto;" src="https://github.com/user-attachments/assets/a7bc21a6-f15f-4aa6-aefe-825b67ac4b01" />
+
+<br>
+<hr>
 
 
 
