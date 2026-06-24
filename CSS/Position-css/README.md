@@ -13,22 +13,16 @@ This project focuses on the topics of **Position** and uses them in the form of 
 <br>
 -Topics used:
 <br>
-
 🟢position: relative	
 <br>
-
 🟢position: absolute
 <br>
-
 🟢top / left	    
 <br>
-
 🟢transform: translate()	
 <br>
-
 🟢overflow-y: hidden
 <br>
-
 <br>
 
 
