@@ -5,6 +5,30 @@ html{
     overflow-y:hidden;
 }
 
+
+
+
+@keyframes circling-around-animation {
+    0%   { transform: rotate(0deg)   translateX(var(--radius)) rotate(0deg); }
+    100% { transform: rotate(360deg) translateX(var(--radius)) rotate(-360deg); }
+}
+
+@keyframes Rotate-planet{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
 .main {
     width: 100%;
     height: 100vh;
@@ -45,9 +69,6 @@ html{
     height:11rem;
 }
 
-
-
-
 .sun .planet-div{
     width:100%;
     height:100%;
@@ -64,37 +85,24 @@ html{
     animation:Rotate-planet ease-in-out 15s infinite;
 }
 
-@keyframes Rotate-planet{
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-
-
-
-
 
 .mercury-circuit{
-    width:17rem;
+    width:16rem;
     height:16rem;
 }
 
-.mercury-circuit .planet-div{
+.mercury-circuit .planet-div {
     position: absolute;
-    width:2rem;
-    height:2rem;
-    border-radius:50%;
-    top:15rem;
-    left:45%;
-
-
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    top: 7rem;        
+    left: 45%;         
+     --radius: 8rem;    
+    animation: circling-around-animation 5s linear infinite;
 }
 
 .mercury-circuit .planet-div img{
-    position: absolute;
     width:100%;
     height:100%;
     object-fit: cover;
@@ -103,16 +111,18 @@ html{
 
 
 .venus-circuit{
-    width:19rem;
-    height:19rem;
+    width:18rem;
+    height:18rem;
 }
 .venus-circuit .planet-div{
     position: absolute;
     width:3rem;
     height:3rem;
     border-radius:50%;
-    top:-1.5rem;
-    left:45%;
+    top:7.5rem;
+    left:43%;
+     --radius: 9rem;    
+    animation: circling-around-animation 10s linear infinite;
 }
 
 .venus-circuit .planet-div img{
@@ -129,11 +139,13 @@ html{
 
 .earth-circuit .planet-div{
     position: absolute;
-    width:2.4rem;
+    width:2rem;
     height:2rem;
     border-radius: 50%;
-    top:20.5rem;
-    left:44%;
+    top:9rem;
+    left:46%;
+    --radius:10rem;
+    animation: circling-around-animation  20s linear infinite ;
 }
 
 .mars-circuit{
@@ -146,8 +158,10 @@ html{
     width:3rem;
     height:3rem;
     border-radius: 50%;
-    top:25rem;
-    left:43%;
+    top:10.5rem;
+    left:44%;
+    --radius: 12rem;
+    animation: circling-around-animation 30s linear infinite ;
 }
 
 .mars-circuit .planet-div img{
@@ -165,8 +179,10 @@ html{
     width:4rem;
     height:4rem;
     border-radius:50%;
-    top:-2rem;
-    left: 45%;
+    top:11rem;
+    left: 42%;
+    --radius: 12.5rem;
+    animation: circling-around-animation 37s linear infinite ;
 }
 
 .saturn-circuit{
@@ -179,10 +195,11 @@ html{
     width:5rem;
     height:5rem;
     border-radius: 50%;
-    top:30rem;
-    left:40%;
+    top:13rem;
+    left:41%;
     perspective: 1500px;
-    animation:none;
+    --radius: 14rem;
+    animation: circling-around-animation 45s linear infinite ;
 }
 
 
@@ -196,8 +213,10 @@ html{
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 50%;
-    top: -.65rem;
-    left: 50%;
+    top: 14.5rem;
+    left: 47%;
+    --radius: 15.5rem;
+    animation: circling-around-animation 56s linear infinite ;
 }
 
 .neptune-circuit{
@@ -210,8 +229,10 @@ html{
     width:3rem;
     height:3rem;
     border-radius: 50%;
-    top:-1.5rem;
-    left:50%;
+    top:15.5rem;
+    left:45.5%;
+    --radius: 17rem;
+    animation: circling-around-animation 67s linear infinite ;
 }
 
 
