@@ -22,6 +22,9 @@ html{
     
 }
 
+.planet-div{
+    animation:Circuit-animation ease-in-out 15s infinite;
+}
 .planet{
     position : absolute;
     border: 1.5px solid rgba(255, 255, 255, 0.08);
@@ -52,6 +55,27 @@ html{
     border-radius:50%;
     border: 1.5px solid #f46a00;
 }
+
+.sun .planet-div{
+    animation:Rotate-planet ease-in-out 15s infinite;
+}
+
+.planet-div{
+    animation:Rotate-planet ease-in-out 15s infinite;
+}
+
+@keyframes Rotate-planet{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
 
 .mercury-circuit{
     width:17rem;
@@ -157,7 +181,10 @@ html{
     border-radius: 50%;
     top:30rem;
     left:40%;
+    perspective: 1500px;
+    animation:none;
 }
+
 
 .uranus-circuit{
     width:31rem;
@@ -186,6 +213,8 @@ html{
     top:-1.5rem;
     left:50%;
 }
+
+
 
 
 
