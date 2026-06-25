@@ -6,7 +6,8 @@ A compact project with a focus on **Animation-Transform** (pure css) 🚀.
 <br>
 
 
-<img style="width: 100%;height: 100%;max-height: 450px;object-fit: cover;margin: auto;" src="https://github.com/user-attachments/assets/a7bc21a6-f15f-4aa6-aefe-825b67ac4b01" />
+<img style="width: 100%;height: 100%;max-height: 450px;object-fit: cover;margin: auto;" src="https://github.com/user-attachments/assets/989095ba-06e8-4a10-a9c8-d2bcf87faf4b" />
+
 
 
 <hr>
