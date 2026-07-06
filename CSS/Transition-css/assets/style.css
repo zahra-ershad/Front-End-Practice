@@ -56,7 +56,7 @@ html{
     color: #eec726;
     text-shadow: 2px 1px 6px #FFD93D;
     padding: .5rem;
-    animation: contents 1s ease-in-out .1s ;
+    animation: textbox-animation 2.5s forwards .3s ;
 
 }
 
@@ -64,7 +64,7 @@ html{
         color: #ebdbbe;
     padding: .8rem;
     font-size: .8rem;
-    animation: contents 1s ease-in-out .1s ;
+    animation: textbox-animation 2.5s forwards .3s ;
 
 }
 
@@ -94,17 +94,6 @@ html{
 
 }
 
-/* @keyframes imgbox-animation{
-    0%{
-        opacity: 0;
-        transform: scale(1.5) translateX(-100%);
-    }
-    
-    100%{
-        transform: scale(1) translateX(0);
-        opacity: 1;
-    }
-} */
 
 @keyframes imgbox-animation{
     0%{
@@ -116,5 +105,17 @@ html{
    
     100%{
         transform: scale(1) translateX(0);
+    }
+}
+
+
+@keyframes textbox-animation{
+    0%{
+        transform: translateY(15rem);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
     }
 }
