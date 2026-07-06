@@ -1,6 +1,9 @@
 html{
     font-size: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .main{
@@ -38,6 +41,7 @@ html{
     width:33rem;
     height: 21.875rem;
     margin: auto;
+    animation: imgbox-animation 1.5s forwards .2s   ;
 
 }
 
@@ -52,11 +56,65 @@ html{
     color: #eec726;
     text-shadow: 2px 1px 6px #FFD93D;
     padding: .5rem;
+    animation: contents 1s ease-in-out .1s ;
+
 }
 
 .slide-1 .content .text-box p{
         color: #ebdbbe;
     padding: .8rem;
     font-size: .8rem;
+    animation: contents 1s ease-in-out .1s ;
 
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 100;
+    background-color: #d17404;
+    width: 100%;
+    height: 100%;
+    animation: overlay .7s forwards .2s ;
+}
+
+/* keyfreames */
+
+
+@keyframes overlay{
+    0%{
+        transform: translateX(0);
+    }
+   
+    100%{
+        transform: translateX(-100%);
+        display: none;
+    }
+
+}
+
+/* @keyframes imgbox-animation{
+    0%{
+        opacity: 0;
+        transform: scale(1.5) translateX(-100%);
+    }
+    
+    100%{
+        transform: scale(1) translateX(0);
+        opacity: 1;
+    }
+} */
+
+@keyframes imgbox-animation{
+    0%{
+        transform: scale(.3) translateX(100%);
+    }
+    50%{
+        transform: scale(.5);
+    }
+   
+    100%{
+        transform: scale(1) translateX(0);
+    }
 }
