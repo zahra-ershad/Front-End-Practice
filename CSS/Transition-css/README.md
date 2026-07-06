@@ -3,7 +3,7 @@
 -A mini project with a focus on **Transition-Css** (pure css) 🚀.
 
 <br>
-<img style="width: 100%;height: 100%;max-height: 450px;object-fit: cover;margin: auto; src="https://github.com/user-attachments/assets/17bb26da-ce28-4b16-85e0-4f0048219bf6" />
+<img style="width: 100%;height: 100%;max-height: 450px;object-fit: cover;margin: auto;" src="https://github.com/user-attachments/assets/17bb26da-ce28-4b16-85e0-4f0048219bf6" />
 
 <hr>
 
