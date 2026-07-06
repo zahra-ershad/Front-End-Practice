@@ -1,27 +1,30 @@
-html{
+html {
     font-size: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
     overflow-y: hidden;
     overflow-x: hidden;
 }
 
-.main{
+.main {
     padding: 1rem;
     height: 100vh;
     width: 100%;
     background-color: #1c1206;
-
+    transition: background-color 0.8s ease;  
 }
 
-.slide{
+.main:hover {
+    background-color: #2a1a0a; 
+}
+
+.slide {
     display: flex;
     padding: .5rem;
     width: 100%;
     height: 100%;
 }
 
-.content{
+.content {
     display: flex;
     gap: 1rem;
     align-items: center;
@@ -29,122 +32,123 @@ html{
     width: 100%;
 }
 
-.slide-1 .content .text-box{
+.slide-1 .content .text-box {
     flex-basis: 50%;
     padding: .4rem;
-    
 }
 
-
-.slide-1 .content .img-box{
+.slide-1 .content .img-box {
     flex-basis: 50%;
-    width:33rem;
+    width: 33rem;
     height: 21.875rem;
     margin: auto;
-    animation: imgbox-animation 1.5s forwards .2s   ;
-
+    animation: imgbox-animation 1.5s forwards .2s;
+    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55),
+                box-shadow 0.4s ease;
 }
 
-.slide-1 .content .img-box img{
+.slide-1 .content .img-box:hover {  
+    transform: scale(1.04) rotate(1deg);
+    box-shadow: 0 20px 60px rgba(238, 199, 38, 0.15);
+}
+
+.slide-1 .content .img-box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.slide-1 .content .text-box h4{ 
+.slide-1 .content .text-box h4 {
     font-size: 1.43rem;
     color: #eec726;
     text-shadow: 2px 1px 6px #FFD93D;
     padding: .5rem;
-    animation: textbox-animation 2.5s forwards .3s ;
-
+    animation: textbox-animation 2.5s forwards .3s;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
-.slide-1 .content .text-box p{
-        color: #ebdbbe;
+.slide-1 .content .text-box h4:hover {  
+    color: #FFD93D;
+    text-shadow: 0 0 40px rgba(255, 217, 61, 0.4);
+}
+
+.slide-1 .content .text-box p {
+    color: #ebdbbe;
     padding: .8rem;
     font-size: .8rem;
-    animation: textbox-animation 2.5s forwards .3s ;
-
+    animation: textbox-animation 2.5s forwards .3s;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.overlay{
+.slide-1 .content .text-box p:hover { 
+    color: #ffffff;
+    transform: translateX(8px);
+}
+
+.overlay {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     z-index: 100;
     background-color: #d17404;
     width: 100%;
     height: 100%;
-    animation: overlay .7s forwards .2s ;
+    animation: overlay .7s forwards .2s;
 }
 
-/* keyfreames */
-
-
-@keyframes overlay{
-    0%{
+/* ===== keyframes ===== */
+@keyframes overlay {
+    0% {
         transform: translateX(0);
     }
-   
-    100%{
+    100% {
         transform: translateX(-100%);
         display: none;
     }
-
 }
 
-
-@keyframes imgbox-animation{
-    0%{
+@keyframes imgbox-animation {
+    0% {
         transform: scale(.3) translateX(100%);
     }
-    50%{
+    50% {
         transform: scale(.5);
     }
-   
-    100%{
+    100% {
         transform: scale(1) translateX(0);
     }
 }
 
-
-@keyframes textbox-animation{
-    0%{
+@keyframes textbox-animation {
+    0% {
         transform: translateY(15rem);
         opacity: 0;
     }
-    100%{
+    100% {
         transform: translateY(0);
         opacity: 1;
     }
 }
 
-
-
-
-/* media queries */
-
-@media (max-width:1200px){
-    .content{
+/* ===== media queries ===== */
+@media (max-width: 1200px) {
+    .content {
         display: flex;
         flex-direction: column-reverse;
     }
-
-    .slide-1 .content .img-box{
+    .slide-1 .content .img-box {
         width: 100%;
     }
-    .slide-1 .content .text-box h4{
+    .slide-1 .content .text-box h4 {
         font-size: 1.3rem;
     }
-
 }
 
-@media (max-width:650px){
-    .slide-1 .content .text-box h4{
+@media (max-width: 650px) {
+    .slide-1 .content .text-box h4 {
         font-size: .9rem;
     }
-    html{
+    html {
         overflow-y: auto;
         overflow-x: auto;
     }
