@@ -119,3 +119,33 @@ html{
         opacity: 1;
     }
 }
+
+
+
+
+/* media queries */
+
+@media (max-width:1200px){
+    .content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .slide-1 .content .img-box{
+        width: 100%;
+    }
+    .slide-1 .content .text-box h4{
+        font-size: 1.3rem;
+    }
+
+}
+
+@media (max-width:650px){
+    .slide-1 .content .text-box h4{
+        font-size: .9rem;
+    }
+    html{
+        overflow-y: auto;
+        overflow-x: auto;
+    }
+}
