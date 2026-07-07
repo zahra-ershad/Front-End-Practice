@@ -1,0 +1,59 @@
+html{
+    font-size: 100%;
+}
+
+.main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: #f1eadc;
+    color:#b63820;
+    height:5.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    align-items: center;
+
+}
+
+.navbar .bold-name{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.navbar .right-side{
+    display: flex;
+    gap:5rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar .right-side .menu{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.navbar .right-side .menu a{
+    font-family:sans-serif;
+    color:#b63820;
+    text-decoration: none;
+    font-size: .85rem;
+}
+
+
+.navbar .right-side .socials{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    /* padding-right:1rem ; */
+    
+}
