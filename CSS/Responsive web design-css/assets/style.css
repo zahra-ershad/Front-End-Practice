@@ -152,17 +152,17 @@ html{
 }
 
 .section-2 .photos{
-    flex-basis: 75%;
+    flex-basis: 80%;
     display: flex;
-    gap: .5rem;
+    gap: 1rem;
     justify-content: flex-end;
     flex-wrap: wrap;
 }
 
 
 .section-2 .photos .p{
-    width:16rem ;
-    height: 16rem;
+    width:18rem ;
+    height:17rem;
     background-color: #b63820;
     color: white;
     font-family: sans-serif;
@@ -188,7 +188,7 @@ html{
 
 
 .section-2 .text-box-2{
-    flex-basis: 25%;
+    flex-basis: 20%;
 }
 
 
