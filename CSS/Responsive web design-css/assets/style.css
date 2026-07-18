@@ -228,9 +228,8 @@ html{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: .5rem;
+    padding: .5rem .5rem 5rem .5rem;    
     color: #b63820;
-
 }
 
 .section-3 .invitation{
@@ -276,4 +275,60 @@ html{
 
 .section-3 .socilas-2 svg:hover{
     transform: scale(1.3);
+}
+
+
+/* *****************FOOTER ******************/
+
+.footer{
+    width: 100%;
+    height:10rem;
+    background-color: #f1eadc;
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    color:#b63820;
+    
+}
+
+.footer .right-text-box-1 .md-text{
+    font-family: 'Lora';
+    font-size: 2rem;
+    padding: .5rem 0rem;
+}
+
+.footer .right-text-box-1 .sm-text-box-4{
+    color: #c35c48;
+    font-size: .9rem;
+    font-family: sans-serif;
+}
+
+
+.footer .left-text-box-1 .address{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: .5rem;
+    padding: .5rem;
+    font-family: sans-serif;
+    
+}
+
+.footer .left-text-box-1 .address svg:hover{
+    animation:footer-svg-move 1s ease-in infinite ;
+}
+
+
+
+@keyframes footer-svg-move {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: scale(1.1) translateY(.3rem);
+        
+    }
+    100%{
+        transform: scale(1) translateY(0rem);
+    }
 }
