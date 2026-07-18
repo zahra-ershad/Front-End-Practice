@@ -318,7 +318,33 @@ html{
     animation:footer-svg-move 1s ease-in infinite ;
 }
 
+/* *****************FOOTER-LINE ******************/
 
+.footer-bottom-line{
+    width: 100%;
+    height: 3rem;
+    background-color: #f1eadc;
+    margin-top: -1rem;
+}
+
+.footer-bottom-line .line-1{
+    margin: 0 auto;
+    width: 85%;
+    height: 1px;
+    background: #cc78658b;
+
+}
+
+.footer-bottom-line .made-by{
+    text-align: center;
+    padding: 1rem;
+    font-size: .7rem;
+    font-family: sans-serif;
+    color: #b63820;
+}
+
+
+/* *****************KEYFRAMES ******************/
 
 @keyframes footer-svg-move {
     0%{

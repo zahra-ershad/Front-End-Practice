@@ -193,7 +193,18 @@
         </div>
 
        </div>
-       div.footer
+       <div class="footer-bottom-line">
+        <div class="line-1"></div>
+
+        <div class="made-by">
+            Made by Zahra Ershad in <span id="year"></span>
+           
+        </div>
+       </div>
     </div>
+    <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById('year').innerText=currentYear;
+     </script>
 </body>
 </html>
