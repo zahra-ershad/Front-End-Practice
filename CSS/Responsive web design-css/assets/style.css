@@ -218,3 +218,62 @@ html{
 .sm-22{
     padding-top: 1.2rem;
 }
+
+
+/* *****************SECTION-3 ******************/
+
+.section-3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem;
+    color: #b63820;
+
+}
+
+.section-3 .invitation{
+    margin: 4rem 2rem 0rem 2rem;
+    width: 4rem;
+    height:4rem;
+    background-color: #f1eadc;
+    border-radius: 50%;
+}
+
+.section-3 .invitation img{
+    width: 2.4rem;
+    height: 2.4rem;
+    object-fit: cover;
+    margin: auto;
+    margin-top: .5rem;
+}
+
+.section-3 .lg-text-4{
+    font-family: 'lora';
+    font-size: 4.5rem;
+    text-align: center;
+    line-height: 4.5rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    
+}
+
+.section-3 .socilas-2{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    
+}
+
+.section-3 .socilas-2 svg{
+    color:#c35c48cf;
+    cursor:pointer;
+    transition: all ease-in .3s;
+}
+
+.section-3 .socilas-2 svg:hover{
+    transform: scale(1.3);
+}
