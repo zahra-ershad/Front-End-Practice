@@ -1,6 +1,6 @@
 # Shopping Landing Page – Tailwind CSS Practice 🛍️
 
--An intresting practice to learn **Tailwind CSS** to practice utility‑first styling, layout design, and component building..
+-An intresting landing page to learn **Tailwind CSS** to practice utility‑first styling, layout design, and component building..
 
 <img style="width: 100%; height: 100%; max-width: 100%;" src="https://github.com/user-attachments/assets/283a59e9-2f6d-4612-b5e3-998b9fdbc675" />
 
