@@ -5,11 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/output.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.3/dist/cdn.min.js"></script>
+
+    
 
     <title>Smile Dent</title>
 </head>
 <body>
-   <nav></nav>
+  <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
+<nav class="p-[2rem] flex items-center justify-between text-[#355575] " x-data="{ isOpen: false }">
+    <div class="w-full px-2  flex items-center justify-between">
+        <!-- ====== دکمه هامبرگر (موبایل) ====== -->
+        <div class="flex items-center sm:hidden">
+            <button @click="isOpen = !isOpen" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-white/5 hover:text-white">
+                <span class="sr-only">باز کردن منو</span>
+                <svg x-show="!isOpen" class="size-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                    <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg x-show="isOpen" class="size-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                    <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- ====== لوگو (چپ) ====== -->
+        <div class="w-[9rem] h-[4rem]">
+            <img src="./assets/imgs/logo.svg" class="w-full h-full" alt="">
+        </div>
+
+        <!-- ====== منوی دسکتاپ (وسط) ====== -->
+        <div class="hidden sm:flex items-center gap-3">
+            <a href="#" class="rounded-md px-5 py-2 text-[1rem] font-medium">Home</a>
+            <a href="#" class="rounded-md px-5 py-2 text-[1rem] font-medium">Services</a>
+            <a href="#" class="rounded-md px-5 py-2 text-[1rem] font-medium">About Us</a>
+            <a href="#" class="rounded-md px-5 py-2 text-[1rem] font-medium">News</a>
+            <a href="#" class="rounded-md px-5 py-2 text-[1rem] font-medium">Contact</a>
+        </div>
+        <!-- ====== دکمه (راست) ====== -->
+        <div class="hidden sm:flex mr-[1.2rem] font-bold">
+            <div class="  text-[#355575] flex items-center flex-col p-2  rounded-full bg-[#f7fafd] ">
+                <div class="px-4 py-1 text-center text-[1rem]">
+                    (778) 804-3466
+                </div>
+                <div class="px-4 pb-2 mt-[-.3rem] text-[#24427da3] text-center text-[.7rem] ">
+                    24/7 Emergency Phone
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ====== منوی موبایل ====== -->
+    <div x-show="isOpen" class="sm:hidden w-full">
+        <div class="space-y-1 px-2 pt-2 pb-3">
+            <a href="#" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white">خانه</a>
+            <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">خدمات</a>
+            <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">درباره ما</a>
+            <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">تماس</a>
+        </div>
+    </div>
+</nav>
+  
    <div class="div-1"></div>
    <div class="div-2"></div>
    <div class="div-3"></div>
