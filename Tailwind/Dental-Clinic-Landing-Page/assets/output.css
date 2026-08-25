@@ -908,6 +908,50 @@ video {
   height: 41rem;
 }
 
+.h-\[60rem\] {
+  height: 60rem;
+}
+
+.h-\[55rem\] {
+  height: 55rem;
+}
+
+.h-\[10rem\] {
+  height: 10rem;
+}
+
+.h-\[8rem\] {
+  height: 8rem;
+}
+
+.h-\[8\.5rem\] {
+  height: 8.5rem;
+}
+
+.h-\[9rem\] {
+  height: 9rem;
+}
+
+.h-\[6rem\] {
+  height: 6rem;
+}
+
+.h-\[7rem\] {
+  height: 7rem;
+}
+
+.h-\[7\.5rem\] {
+  height: 7.5rem;
+}
+
+.h-\[6\.5rem\] {
+  height: 6.5rem;
+}
+
+.h-\[4\.5rem\] {
+  height: 4.5rem;
+}
+
 .max-h-\[6rem\] {
   max-height: 6rem;
 }
@@ -950,6 +994,30 @@ video {
 
 .w-\[25rem\] {
   width: 25rem;
+}
+
+.w-\[6rem\] {
+  width: 6rem;
+}
+
+.w-\[7rem\] {
+  width: 7rem;
+}
+
+.w-\[8rem\] {
+  width: 8rem;
+}
+
+.w-\[7\.5rem\] {
+  width: 7.5rem;
+}
+
+.w-\[6\.5rem\] {
+  width: 6.5rem;
+}
+
+.w-\[4\.5rem\] {
+  width: 4.5rem;
 }
 
 .max-w-\[12rem\] {
@@ -1508,6 +1576,10 @@ video {
 
 .gap-\[1rem\] {
   gap: 1rem;
+}
+
+.gap-\[1\.5rem\] {
+  gap: 1.5rem;
 }
 
 .-space-x-\[1rem\] > :not([hidden]) ~ :not([hidden]) {
@@ -2228,6 +2300,11 @@ video {
   padding-bottom: 5rem;
 }
 
+.px-\[1\.5rem\] {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -2246,6 +2323,38 @@ video {
 
 .pt-\[2rem\] {
   padding-top: 2rem;
+}
+
+.pt-\[1\.5rem\] {
+  padding-top: 1.5rem;
+}
+
+.pt-\[1\.8rem\] {
+  padding-top: 1.8rem;
+}
+
+.pt-\[1\.65rem\] {
+  padding-top: 1.65rem;
+}
+
+.pb-\[\.5\] {
+  padding-bottom: .5;
+}
+
+.pb-\[\.5rem\] {
+  padding-bottom: .5rem;
+}
+
+.pb-\[\] {
+  padding-bottom: ;
+}
+
+.pb-\[2rem\] {
+  padding-bottom: 2rem;
+}
+
+.pb-\[1\.5rem\] {
+  padding-bottom: 1.5rem;
 }
 
 .text-left {
