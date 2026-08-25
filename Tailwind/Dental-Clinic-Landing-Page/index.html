@@ -11,10 +11,9 @@
 
     <title>Smile Dent</title>
 </head>
-<body>
-  <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
-<nav class="p-[2rem] flex items-center justify-between text-[#355575] " x-data="{ isOpen: false }">
+<body class="w-full h-full">
+                     <!-- nav-div -->
+<nav class="max-h-[6rem] z-50 fixed top-0 left-0 w-full pt-[2rem] pb-[1.4rem] px-[3rem] flex items-center justify-between text-[#355575] bg-white " x-data="{ isOpen: false }">
     <div class="w-full px-2  flex items-center justify-between">
         <!-- ====== دکمه هامبرگر (موبایل) ====== -->
         <div class="flex items-center sm:hidden">
@@ -65,8 +64,70 @@
         </div>
     </div>
 </nav>
-  
-   <div class="div-1"></div>
+                  <!-- big-card-div -->
+   <div class="mt-[7rem] flex flex-col px-[2rem] py-1  w-8/10 max-w-[80rem] h-[50rem] mx-auto ">
+    <div class="  bg-[#f7fafd] flex-row-reverse rounded-t-[4rem]  flex gap-[1rem] h-[41rem] ">
+                <!-- big-img-div -->
+        <div class="basis-[45%] p-3 w-full h-full relative bottom-0 ">
+            <img src="./assets/imgs/img-1.webp" class="absolute bottom-0" alt="">
+        </div>
+
+                    <!-- right-side-text-div -->
+        <div class="basis-[55%] px-[2.5rem] py-[5rem] w-full h-full flex flex-col gap-[.8rem]  text-[#24417c]">
+                        <!-- big-text-div -->
+            <div class=" p-3 font-sans text-[3.3rem] font-[900] leading-[5rem] ">
+                Your Comfortable Pathway to Bright and Healthy Smiles
+            </div>
+
+                     <!-- sm-text-div -->
+            <div class=" py-3  px-[1rem] max-w-[34rem]">
+                If you are in need of high-quality, professional and friendly dental care, look no further than our clinic.
+            </div>
+                    <!-- booking-bottun-div -->
+            <div class=" py-3 px-[1rem]">
+                <button class="text-white flex gap-[.5rem] uppercase  justify-center py-[1.2rem] text-[1rem] font-[700] bg-[#24417c] w-[16rem] h-[4rem] rounded-[10rem]">
+                    book appointment 
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-[.8rem] h-[.8rem] mt-[.3rem] text-white" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M24 0v22.78h-2.87V4.9L2.03 24 0 21.97l19.1-19.1H1.26V0H24Z"></path></svg>
+                </button>
+            </div>
+
+
+
+
+                 
+
+                                <!-- avatar-sm-text-div -->
+            <div class="p-3 flex justify-starth-[3rem] w-[25rem]">
+
+                        <!-- avatars-div -->
+                <div class=" p-[.5rem]   flex items-center -space-x-[.7rem] ">
+                    <div class="w-[2.5rem] h-[2.5rem] rounded-3xl  ">
+                        <img src="./assets/imgs/img-9.webp" class="h-full w-full object-cover rounded-3xl" >
+                    </div>
+                    <div class="w-[2.5rem] h-[2.5rem] rounded-3xl ">
+                        <img src="./assets/imgs/img-10.webp" class="h-full w-full object-cover rounded-3xl" >
+                    </div>
+                    <div class="w-[2.5rem] h-[2.5rem] rounded-3xl ">
+                        <img src="./assets/imgs/img-11.webp" class="h-full w-full object-cover rounded-3xl" >
+                    </div>
+                    <div class="w-[2.5rem] h-[2.5rem] rounded-3xl ">
+                        <img src="./assets/imgs/img-12.webp" class="h-full w-full object-cover rounded-3xl" >
+                    </div>
+                </div>
+                <div class=" ml-[1rem]  max-w-[12rem]  text-[.75rem] font-[600] uppercase  text-[#24417ce8] mt-[.7rem] ">
+                    Trusted by 150K+ people
+                    around the globe
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="   bg-[#24417c]   rounded-b-[2rem]  ">
+        nnj
+    </div>
+   </div>
    <div class="div-2"></div>
    <div class="div-3"></div>
    <div class="div-4"></div>

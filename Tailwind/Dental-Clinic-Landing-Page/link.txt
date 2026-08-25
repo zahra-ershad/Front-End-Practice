@@ -1,1 +1,5 @@
 https://startersites.io/blocksy/smile-dent/
+
+
+
+npx tailwindcss -i ./assets/input.css -o ./assets/output.css --watch
