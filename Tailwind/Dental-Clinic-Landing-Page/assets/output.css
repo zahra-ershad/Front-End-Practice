@@ -743,6 +743,11 @@ video {
   margin: auto;
 }
 
+.mx-\[1\.9rem\] {
+  margin-left: 1.9rem;
+  margin-right: 1.9rem;
+}
+
 .mx-\[4\.5rem\] {
   margin-left: 4.5rem;
   margin-right: 4.5rem;
@@ -766,16 +771,6 @@ video {
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.mx-\[1\.9rem\] {
-  margin-left: 1.9rem;
-  margin-right: 1.9rem;
-}
-
-.mx-\[1\.7rem\] {
-  margin-left: 1.7rem;
-  margin-right: 1.7rem;
 }
 
 .mb-\[2rem\] {
@@ -826,20 +821,16 @@ video {
   margin-top: .8rem;
 }
 
-.mt-\[7rem\] {
-  margin-top: 7rem;
-}
-
-.mt-\[2rem\] {
-  margin-top: 2rem;
-}
-
 .mt-\[2\.5rem\] {
   margin-top: 2.5rem;
 }
 
-.mb-\[\] {
-  margin-bottom: ;
+.mt-\[7rem\] {
+  margin-top: 7rem;
+}
+
+.ml-\[\.2rem\] {
+  margin-left: .2rem;
 }
 
 .box-border {
@@ -970,8 +961,16 @@ video {
   height: 3.5rem;
 }
 
+.h-\[3\.7rem\] {
+  height: 3.7rem;
+}
+
 .h-\[38rem\] {
   height: 38rem;
+}
+
+.h-\[39rem\] {
+  height: 39rem;
 }
 
 .h-\[3rem\] {
@@ -980,10 +979,6 @@ video {
 
 .h-\[4\.5rem\] {
   height: 4.5rem;
-}
-
-.h-\[40rem\] {
-  height: 40rem;
 }
 
 .h-\[41rem\] {
@@ -1014,18 +1009,6 @@ video {
   height: 100%;
 }
 
-.h-\[39rem\] {
-  height: 39rem;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[3\.6rem\] {
-  height: 3.6rem;
-}
-
 .max-h-\[6rem\] {
   max-height: 6rem;
 }
@@ -1050,6 +1033,10 @@ video {
   width: 2.5rem;
 }
 
+.w-\[20rem\] {
+  width: 20rem;
+}
+
 .w-\[24rem\] {
   width: 24rem;
 }
@@ -1062,8 +1049,8 @@ video {
   width: 3.3rem;
 }
 
-.w-\[33rem\] {
-  width: 33rem;
+.w-\[37rem\] {
+  width: 37rem;
 }
 
 .w-\[3rem\] {
@@ -1090,8 +1077,16 @@ video {
   width: 7.5rem;
 }
 
+.w-\[7rem\] {
+  width: 7rem;
+}
+
 .w-\[8rem\] {
   width: 8rem;
+}
+
+.w-\[9\.5rem\] {
+  width: 9.5rem;
 }
 
 .w-\[9rem\] {
@@ -1112,22 +1107,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[37rem\] {
-  width: 37rem;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[11rem\] {
-  width: 11rem;
-}
-
-.w-\[10rem\] {
-  width: 10rem;
 }
 
 .max-w-\[12rem\] {
@@ -1506,6 +1485,10 @@ video {
   grid-auto-flow: column dense;
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -1694,6 +1677,10 @@ video {
   gap: 0.75rem;
 }
 
+.gap-\[\.2rem\] {
+  gap: .2rem;
+}
+
 .gap-\[\.3rem\] {
   gap: .3rem;
 }
@@ -1720,10 +1707,6 @@ video {
 
 .gap-\[1rem\] {
   gap: 1rem;
-}
-
-.gap-\[\.2rem\] {
-  gap: .2rem;
 }
 
 .-space-x-\[\.7rem\] > :not([hidden]) ~ :not([hidden]) {
@@ -2460,9 +2443,14 @@ video {
   padding-right: 1.5rem;
 }
 
-.px-\[1\.7rem\] {
-  padding-left: 1.7rem;
-  padding-right: 1.7rem;
+.px-\[1\.8rem\] {
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+}
+
+.px-\[1\.9rem\] {
+  padding-left: 1.9rem;
+  padding-right: 1.9rem;
 }
 
 .px-\[1rem\] {
@@ -2510,6 +2498,16 @@ video {
   padding-bottom: .5rem;
 }
 
+.py-\[\.7rem\] {
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+}
+
+.py-\[1\.1rem\] {
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+}
+
 .py-\[1\.2rem\] {
   padding-top: 1.2rem;
   padding-bottom: 1.2rem;
@@ -2538,31 +2536,6 @@ video {
 .py-\[7rem\] {
   padding-top: 7rem;
   padding-bottom: 7rem;
-}
-
-.py-\[\.6rem\] {
-  padding-top: .6rem;
-  padding-bottom: .6rem;
-}
-
-.py-\[\.7rem\] {
-  padding-top: .7rem;
-  padding-bottom: .7rem;
-}
-
-.px-\[1\.9rem\] {
-  padding-left: 1.9rem;
-  padding-right: 1.9rem;
-}
-
-.px-\[1\.8rem\] {
-  padding-left: 1.8rem;
-  padding-right: 1.8rem;
-}
-
-.py-\[1\.1rem\] {
-  padding-top: 1.1rem;
-  padding-bottom: 1.1rem;
 }
 
 .pb-2 {
@@ -2693,6 +2666,10 @@ video {
   font-size: 1.5rem;
 }
 
+.text-\[1\.6rem\] {
+  font-size: 1.6rem;
+}
+
 .text-\[1rem\] {
   font-size: 1rem;
 }
@@ -2712,6 +2689,14 @@ video {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-\[1\.3rem\] {
+  font-size: 1.3rem;
+}
+
+.text-\[1\.2rem\] {
+  font-size: 1.2rem;
 }
 
 .font-\[600\] {
@@ -2847,13 +2832,13 @@ video {
   color: rgb(156 163 175 / var(--tw-text-opacity, 1));
 }
 
+.text-inherit {
+  color: inherit;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-inherit {
-  color: inherit;
 }
 
 .underline {
