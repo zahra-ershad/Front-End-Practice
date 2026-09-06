@@ -1,4 +1,4 @@
-<img width="1885" height="835" alt="Screenshot 2026-09-06 045901" src="https://github.com/user-attachments/assets/632b550a-a8f3-4fe7-b1c0-58a50bd5336a" /># Smile Dent – Dental Clinic Landing Page 🦷👩🏻‍⚕️
+# Smile Dent – Dental Clinic Landing Page 🦷👩🏻‍⚕️
 
 -A single‑page dental clinic landing page built with **HTML5**, **CSS3**, and **Tailwind CSS**.
 
