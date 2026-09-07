@@ -3,7 +3,7 @@
 -A single‑page dental clinic landing page built with **HTML5**, **CSS3**, and **Tailwind CSS**.
 
 <img style="width:100%; height:100%; object-fit:cover;" src="https://github.com/user-attachments/assets/2567071a-7f51-4850-b475-9798eb9f098c" />
-
+<br>
 
 
  
