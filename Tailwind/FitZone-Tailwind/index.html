@@ -14,7 +14,7 @@
 
 <body class="font-medium">
                                     <!-- navbar-div -->
-    <header class="flex items-center w-screen justify-between px-6 py-3 md:py-4 shadow  rounded-full mx-auto  bg-white 2xl:justify-around 2xl:gap-[.53rem]">
+    <header class="z-20 flex items-center w-screen  justify-between fixed top-0 left-0 px-6 py-3 md:py-4 shadow  rounded-[2rem] mx-auto  bg-white 2xl:justify-around 2xl:gap-[.53rem]">
         <a  class="flex justify-end gap-2 ">
             <img src="./assets/img/logo.svg" class="w-[3.5rem] h-[3.5rem] object-cover" fill="#f97316" />
                 <h5 class=" font-black text-[1.5rem] mt-[.5rem] text-orange-500 flex ">
@@ -64,8 +64,46 @@
    
 
 
+        <!-- hero-section -->
+    <div style="background-image:url(./assets/img/hero.webp)" 
+        class=" w-full  bg-cover md:bg-top mt-[5.5rem] relative h-[27rem]
+         sm:h-[28rem] md:h-[34rem]">
 
-    <div class="div-1"></div>
+        <!-- before-overlay -->
+         <div class="absolute top-0 left-0 w-full h-full inset-0 z-10 bg-[#f79450a6]">
+
+            <!-- texts-div -->
+             <div class="p-[1rem] flex flex-col justify-center items-center text-center gap-2
+             md:justify-start md:text-left md:items-start md:gap-[.8rem]">
+
+                <!-- bold-matto -->
+                <div class="p-[.5rem] font-black text-[2rem] font-[700]
+                md:text-[4.5rem] lg:text-[5.4rem]">
+                    Transform Your Body, Transform Your Life
+                </div>
+
+                <!-- mid-text -->
+                <div class="p-[.5rem] text-[1rem] md:w-[45rem]
+                md:text-[1.2rem] ">
+                    Join the best gym in town with expert trainers, state-of-the-art equipment, and a community that pushes you to be your best.
+                </div>
+
+                <!-- buttons -->
+                <div class="p-[.5rem] mt-2 flex gap-2 justify-center items-center text-[.7rem] 
+                md:text-[1rem] ">
+
+                    <button class="p-[1rem] rounded-xl bg-[#f97316] hover:bg-[#cd712f]  text-white">
+                        Start Your Free Trial
+                    </button>
+
+                    <button class="p-[1rem] rounded-xl bg-white text-[#f97316]">
+                        Learn More
+                    </button>
+                </div>
+             </div>
+
+         </div>
+    </div>
 
 
 
