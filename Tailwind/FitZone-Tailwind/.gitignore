@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+npm-debug.log*
+package-lock.json
+yarn-lock.json
+
+# Tailwind
+*.log
+.output.css
+dist/
+
+# System files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
