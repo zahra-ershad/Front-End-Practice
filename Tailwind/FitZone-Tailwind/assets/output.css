@@ -731,6 +731,10 @@ video {
   clear: none;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -746,6 +750,14 @@ video {
 
 .mt-\[5\.5rem\] {
   margin-top: 5.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .box-border {
@@ -851,8 +863,8 @@ video {
   height: 1.5rem;
 }
 
-.h-\[24rem\] {
-  height: 24rem;
+.h-\[27rem\] {
+  height: 27rem;
 }
 
 .h-\[3\.5rem\] {
@@ -861,10 +873,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[27rem\] {
-  height: 27rem;
 }
 
 .w-6 {
@@ -893,6 +901,22 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.max-w-\[15rem\] {
+  max-width: 15rem;
+}
+
+.max-w-\[10rem\] {
+  max-width: 10rem;
+}
+
+.max-w-\[30rem\] {
+  max-width: 30rem;
+}
+
+.max-w-\[25rem\] {
+  max-width: 25rem;
 }
 
 .flex-shrink {
@@ -1419,6 +1443,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2029,6 +2057,22 @@ video {
   padding: 1rem;
 }
 
+.p-\[\.2rem\] {
+  padding: .2rem;
+}
+
+.p-\[\.8rem\] {
+  padding: .8rem;
+}
+
+.p-\[2rem\] {
+  padding: 2rem;
+}
+
+.p-\[\.rem\] {
+  padding: .rem;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -2144,6 +2188,10 @@ video {
   line-height: 1.25rem;
 }
 
+.text-\[1\.8rem\] {
+  font-size: 1.8rem;
+}
+
 .font-\[700\] {
   font-weight: 700;
 }
@@ -2162,6 +2210,14 @@ video {
 
 .font-normal {
   font-weight: 400;
+}
+
+.font-\[1\.8rem\] {
+  font-weight: 1.8rem;
+}
+
+.font-\[600\] {
+  font-weight: 600;
 }
 
 .uppercase {
@@ -2765,24 +2821,8 @@ video {
     display: none;
   }
 
-  .md\:h-\[43rem\] {
-    height: 43rem;
-  }
-
-  .md\:h-\[36rem\] {
-    height: 36rem;
-  }
-
   .md\:h-\[34rem\] {
     height: 34rem;
-  }
-
-  .md\:w-\[30rem\] {
-    width: 30rem;
-  }
-
-  .md\:w-\[40rem\] {
-    width: 40rem;
   }
 
   .md\:w-\[45rem\] {
@@ -2799,6 +2839,10 @@ video {
 
   .md\:justify-start {
     justify-content: flex-start;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 
   .md\:gap-\[\.8rem\] {
